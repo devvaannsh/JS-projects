@@ -1,0 +1,1 @@
+In this project, I am assigned to create a UI in which 4 boxes will be there each with a different color, and when a box will be clicked I need to change the background color of the body with the box's color
