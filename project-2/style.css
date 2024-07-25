@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+#result {
+    margin-bottom: 16px;
+}
+
+.input-fields {
+    margin: 20px 0;
+}
+
+#calculate {
+    padding: 4px 8px;
+    margin-bottom: 20px;
+}
