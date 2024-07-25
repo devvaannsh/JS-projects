@@ -1,0 +1,1 @@
+In this project, I am assigned to create a number guesser game, where the computer will generate a random number between 1-100(both inclusive) & the user will have 10 attempts to guess it.
