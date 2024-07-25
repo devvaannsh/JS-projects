@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+/* Hide spinners for WebKit browsers (Chrome, Safari) */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Hide spinners for Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input {
+    text-align: center;
+}
+
+.wrapper {
+	text-align: center;
+    padding: 40px;
+}
+
+.game-details h1 {
+    margin: 10px 0;
+}
+
+.game-details p {
+    font-size: 12px;
+}
+
+.game-details #ruleset-2 {
+    margin: 4px 0 10px 0;
+}
+
+.guess-field #guess-heading {
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0 10px 0;
+    text-transform: uppercase;
+}
+
+.guess-field #guess-input {
+    display: block;
+    margin: 10px auto;
+    width: 60px;
+}
+
+.guess-field #submit-button {
+    display: block;
+    margin: 20px auto;
+    height: 28px;
+}
+
+.guess-details #results {
+    margin: 20px auto;
+}
