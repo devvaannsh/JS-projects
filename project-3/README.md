@@ -1,0 +1,1 @@
+In this project, I am assigned to create a digital clock which will display the current time and date & will automatically get updated every second
