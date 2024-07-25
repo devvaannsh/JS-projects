@@ -1,0 +1,1 @@
+In this project, I am assigned to create a BMI calculator, where I must take the height and weight values from the user and based on the values, calculate the BMI and let user know whether the user is underweight/overweight or in normal range.
